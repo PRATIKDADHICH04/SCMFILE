@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Big Boss Voting Zone</title>
+    <link rel="stylesheet" href="voting zone.css">
+</head>
+<body>
+    <div class='container'>
+        <div class='banner'>
+          <h1>Big Boss OTT Season 2 Vote Poll</h1>
+        </div>
+        <div class='voteContainer'>
+          <div class='voterDetails'>
+            <img src='/photos and videos/elvish.webp' alt='Elvish Yadav' class='voteImg'>
+            <p class='voterName'>Elvish</p>
+            <button class='voteBtn'>Vote</button>
+          </div>
+          <div class='voterDetails'>
+            <img src='/photos and videos/abhishek.webp' alt='Abhishek Malhan' class='voteImg'>
+            <p class='voterName'>Abhishek</p>
+            <button class='voteBtn'>Vote</button>
+          </div>
+          
+          <div class='voterDetails'>
+            <img src='/photos and videos/aashikabhatia.webp'Aashika Bhatia' class='voteImg'>
+            <p class='voterName'>Aashika</p>
+            <button class='voteBtn'>Vote</button>
+          </div>
+          
+          <div class='voterDetails'>
+            <img src='/photos and videos/jiya.webp'Jiya Shankar class='voteImg'>
+            <p class='voterName'>Jiya</p>
+            <button class='voteBtn'>Vote</button>
+          </div>
+          <div class='voterDetails'>
+            <img src='/photos and videos/cyrus-broacha.webp' alt='Cyrus broacha' class='voteImg'>
+            <p class='voterName'>Cyrus</p>
+            <button class='voteBtn'>vote</button>
+          </div>
+        </div>
+        <div class='radioContainer'>
+          <h2 style="color: rebeccapurple;">Big Boss Season 2  Final Voting</h2>
+          <div class='radio'>
+            <p>Click One Vote</p>
+            <div class='labelContainer'>
+              <input type='radio' name='vote' id='vote1' value='0'>
+              <label for='vote1'>Elvish Yadav</label>
+            </div>
+            <div class='labelContainer'>
+              <input type='radio' name='vote' id='vote2' value='1'>
+              <label for='vote2'>Abhishek Malhan</label>
+            </div>
+            <div class='labelContainer'>
+              <input type='radio' name='vote' id='vote3' value='2'>
+              <label for='vote3'>Aashika Bhatia</label>
+            </div>
+            <div class='labelContainer'>
+              <input type='radio' name='vote' id='vote4' value='3'>
+              <label for='vote4'>Jiya Shankar</label>
+            </div>
+            <div class='labelContainer'>
+              <input type='radio' name='vote' id='vote5' value='4'>
+              <label for='vote5'>Cyrus broacha</label>
+            </div>
+            <div class='buttons'>
+              <button type='button' onclick='displayRadioValue()'class='voteCastBtn'>Vote</button>
+              <button class='resultsBtn' onclick="window.location.href='http://127.0.0.1:5500/big%20boss%20sample%202/result.html';">Show Results</button>
+            </div>
+          </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+</html>

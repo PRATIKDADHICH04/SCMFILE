@@ -1,0 +1,30 @@
+
+body{
+    background-image: linear-gradient(to left,rgb(158, 65, 29),rgb(66, 66, 181));
+}
+
+.container{
+    width: 55%;
+    height: 50%;
+    margin-left: 300px;
+}
+.box{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 7px 7px grey;
+}
+
+.box video{
+    box-shadow: black(0,0,1px,70px);
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+.box h2{
+    position: relative;
+    z-index: 1;
+    margin-left: 120px;
+    margin-right: 20px;
+    margin-top: 1px;
+}
